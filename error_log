@@ -1,0 +1,24 @@
+[25-Aug-2014 05:45:32 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 13
+[25-Aug-2014 05:46:45 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 13
+[25-Aug-2014 05:54:17 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 13
+[25-Aug-2014 05:54:22 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 13
+[25-Aug-2014 09:01:24 America/Denver] PHP Fatal error:  Class 'comenzados' not found in /home1/okcompu3/public_html/webdesign/Synergia3/comenzados.php on line 3
+[25-Aug-2014 09:49:41 America/Denver] PHP Fatal error:  Class 'comenzados' not found in /home1/okcompu3/public_html/webdesign/Synergia3/comenzados-usuario.php on line 3
+[26-Aug-2014 08:22:32 America/Denver] PHP Fatal error:  Call to undefined method comenzados::get_adjudicado_por_id() in /home1/okcompu3/public_html/webdesign/Synergia3/abm-comenzados.php on line 18
+[31-Aug-2014 14:38:19 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index.php on line 77
+[31-Aug-2014 14:41:55 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index.php on line 77
+[31-Aug-2014 14:44:28 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index.php on line 77
+[31-Aug-2014 14:45:40 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index-usuario.php on line 35
+[31-Aug-2014 14:45:47 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/editar-auto.php on line 74
+[31-Aug-2014 14:46:04 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index-usuario.php on line 35
+[31-Aug-2014 14:46:12 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/editar-auto.php on line 74
+[31-Aug-2014 14:46:25 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index-usuario.php on line 35
+[31-Aug-2014 14:49:30 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index.php on line 77
+[31-Aug-2014 15:35:16 America/Denver] PHP Notice:  Undefined index: aut_imagen in /home1/okcompu3/public_html/webdesign/Synergia3/index.php on line 77
+[31-Aug-2014 15:49:49 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 307
+[31-Aug-2014 15:51:02 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 307
+[31-Aug-2014 15:52:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 307
+[31-Aug-2014 17:21:12 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 307
+[31-Aug-2014 21:41:59 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 307
+[31-Aug-2014 21:44:14 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 307
+[31-Aug-2014 21:46:19 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/okcompu3/public_html/webdesign/Synergia3/class/class.php on line 14

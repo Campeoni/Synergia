@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Synergya</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/spacelab.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+	<header id="barra-navegacion">
+		<nav class="navbar navbar-inverse" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <img id="logo" height="75px" width="75px" class="img-circle navbar-brand" src="css/img/logo-synergya2.png">
+		      <i id="synergya" class="navbar-brand">SYNERGYA</i>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">			      
+		      <ul class="nav navbar-nav navbar-right telefonos-mail">
+		      	<li id="contenedor-telefono"><img src="css/img/telefonito3.png" id="telefono" /><div class="datos"><span class="glyphicon glyphicon-earphone earphone"></span> 4104-5000 (C.A.B.A.)<br /><span class="glyphicon glyphicon-earphone earphone"></span> 426 803 / 426 132 (Formosa)</div></li>
+		      	<li id="mail"><a href="index.php"><img src="css/img/home.png" /></a></li> 
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+
+	<div id="formulario-contacto">
+		<div class="text-center">
+		<h1>¿Consultas, preguntas?</h1>
+		<h3>Llene este formulario y le responderemos a la brevedad</h3>
+		<h3>También puede consultar directamente por un <a href="#">Plan</a></h3>
+	</div>	
+		<form role="form">
+			<div class="form-group">
+      			<label for="exampleInputName">Nombre</label>
+      		      <input type="name" class="form-control" id="exampleInputName" placeholder="Nombre">
+      		 	</div>
+      		<div class="form-group">
+      		      <label for="exampleInputEmail1">Email</label>
+      		      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="mail@ejemplo.com">
+      		  </div>
+      		  <div class="form-group">
+      		      <label for="exampleInputPhone">Teléfono</label>
+      		      <input type="name" class="form-control" id="exampleInputPhone" placeholder="Teléfono">
+      		 	</div>
+      		 <div class="form-group">
+      		 	<label for="exampleInputText">Consulta</label>
+      		 	<textarea class="form-control" rows="3"></textarea>
+      		 </div>
+      		 <div id="boton-enviar">
+      		 <button id="enviar" type="submit" class="btn btn-default">Enviar</button>
+      		</div>
+      		</form>
+      	</div>
+
+    <footer>
+		<p><i>Diseño y desarrollo Ok Computer</i></p>
+		<a href="www.okcomputer-it.com.ar">www.okcomputer-it.com.ar</a>
+	</footer>
+	
+		<script src="js/jquery-1.11.1-min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	<script src="js/funciones.js"></script>
+
+		<script>$(document).ready( inicializador );</script>
+
+</body>
+</html>

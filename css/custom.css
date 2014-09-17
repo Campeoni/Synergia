@@ -1,0 +1,201 @@
+/*Hoja de estilo Synergya */
+
+/* Elementos comunes a todas las URLs */
+
+/* Barra de navegación */
+
+#barra-navegacion {
+   -webkit-box-shadow: 0 0 5px 5px rgba(100,100,100,0.5);
+    box-shadow: 0 0 5px 5px rgba(100,100,100,0.5);
+    margin-bottom: 10px;
+}
+
+.navbar-header {
+    margin-top: 5px;
+}
+
+#contenedor-telefono {
+    position: relative;
+    top: 7px;
+}
+
+.telefonos-mail li{    
+    color: white;
+    font-size: 20px;
+}
+
+#telefono {
+    position: absolute;
+    margin-top: 5px;
+}
+
+#mail {
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.datos {
+    padding-left: 65px;
+}
+
+@media (max-width: 768px) {
+    .telefonos-mail li {
+        text-align: center;
+    }
+    #telefono {
+        display: none;
+    }
+
+    #synergya {
+        font-size: 30px;
+    }
+
+    #logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    #botonera a {
+        font-size: 12px;
+    }
+
+    .datos {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #botonera a {
+        font-size: 11px;
+    }
+
+    .btn {
+        padding: 7px 7px;
+    }
+}
+
+@media (min-width: 768px) {
+    .earphone {
+        display: none;
+    }
+}
+
+.telefonito{
+    position: absolute;    
+}
+.blanco {
+    color: #efefef;
+}
+
+/* Fin Barra de navegación */
+
+/* Footer */
+
+footer {
+    -webkit-box-shadow: 0 0 5px 5px rgba(100,100,100,0.5);
+    box-shadow: 0 0 5px 5px rgba(100,100,100,0.5);
+    margin-top: 10px;
+    text-align: center;
+    background-color: #385A7F;
+    color: #efefef;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+/* Carousel base class */
+
+#myCarousel {
+}
+.carousel {
+}
+
+.carousel .item {
+}
+
+
+.imagenCarrusell {
+  display: block;
+    max-width:1366px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+}
+
+
+/*
+.carousel-inner > .item > img {
+  display: block;
+    max-width:1366px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+}*/
+
+/*
+#slide1 {
+	background: url("fotos/chery-carrusell.jpg");
+	background-size: cover;
+	background-position: center;
+}
+*/
+
+.table-middle {
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .autito {
+        max-width:120px;
+    }
+}
+
+/* Contacto */
+
+#formulario-contacto {
+    max-width: 768px;
+    margin: auto;
+    padding: 10px;
+}
+
+#boton-enviar {
+    text-align: center;
+}
+
+#consultarPlan {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 768px;
+    max-height: 400px;
+    margin-top: -100px;
+    margin-left: -384px;
+    padding: 10px;
+    background: #E65E2A;
+    color:#efefef;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 10px 10px rgba(100,100,100,0.5);
+    box-shadow: 0 0 10px 10px rgba(100,100,100,0.5);
+}
+
+#cerrarConsultarPlan {
+    cursor: pointer;
+    float: right;
+}
+
+@media (max-width: 768px) {
+    #consultarPlan {
+        top: 50%;
+        left: 50%;
+        width: 280px;
+        max-height: 400px;
+        margin-top: -100px;
+        margin-left: -150px;
+    }
+}
